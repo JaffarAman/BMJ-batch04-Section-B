@@ -1,0 +1,119 @@
+h1 {
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 3em; */
+    text-align: right;
+}
+
+
+/* .myDiv { */
+
+
+/* text-align: center; */
+
+
+/* } */
+
+.para {
+    background-color: black;
+    color: grey;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.para1 {
+    /* font-weight: bold;
+    font-style: italic; */
+    text-transform: capitalize;
+    line-height: 2rem;
+    word-spacing: 5px;
+    text-align: justify;
+    text-indent: 20rem;
+}
+
+.para1 span {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    /* text-transform: capitalize; */
+    text-transform: lowercase;
+    text-decoration: line-through solid brown;
+    letter-spacing: 1rem;
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+.heading {
+    background-color: royalblue;
+    text-align: center;
+    text-shadow: 5px 5px 5px white;
+    /* text-shadow: -5px -5px 5px white; */
+}
+
+.newPara {
+    color: red;
+}
+
+.newPara::first-letter{
+        color: blue;
+        font-size: 25px;
+}
+
+.newPara::first-line{
+    color: blue;
+    font-size: 25px;
+}
+
+
+.name::first-letter{
+        color: blue;
+        font-size: 25px;
+}
+
+
+a{
+    color: black;
+}
+
+a:visited{
+    color: red;
+}
+a:active{
+    color: aqua;
+}
+
+a:hover{
+    color: purple;
+    background-color: black;
+    text-decoration: none;
+    font-family: monospace
+}
+
+.input{
+    background-color: grey;
+}
+
+.input:focus{
+    background-color: aqua;
+
+}
+
+.input::placeholder{
+    color: white;
+}
+
+.button{
+    background-color: lightcyan;
+    cursor: pointer;    
+}
+
+.button:hover{
+    background-color: brown;
+    color: white;
+}
+
+.button:active{
+    background-color: black;
+}

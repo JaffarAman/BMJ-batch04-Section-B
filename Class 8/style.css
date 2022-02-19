@@ -1,0 +1,123 @@
+/* h1 , h2 , h3{
+    
+    background-color: royalblue;
+    
+} */
+
+
+/* 
+h2{
+    background-color: red;
+}
+h3{
+    background-color: red;
+
+} */
+
+
+/* *{
+    color: white;   
+    background-color: black;
+} */
+
+
+
+/* type selector */
+h2{
+    background-color: red;
+}
+
+h3{
+    background-color: royalblue;
+}
+
+/* p{
+    background-color: gray;
+} */
+
+
+/* #para1{
+    background-color: gray;
+}
+
+
+.para{
+    background-color: green;
+} */
+
+
+/* #para1 , .para , h1{
+        color: red;
+} */
+
+
+/* h3.heading{
+    color: red;
+} */
+
+
+/* .mydiv > b   {
+    color: red;
+} */
+
+/* .myDiv >  b > i{
+    color: red;
+} */
+/* 
+.myDiv b i{
+    color:red;
+} */
+
+/* 
+.myDiv b{
+
+    color: red;
+} */
+
+/* .div~p{
+    color: red;
+} */
+
+
+
+
+*{
+    color: blue;
+}
+
+#para{
+    color: pink;
+    /* background-color: seagreen; */
+}
+
+#para{
+    color: chocolate;
+}
+.para2{
+    color : black;
+    background-color: royalblue;
+}
+
+p{
+    background-color: red ;
+    color : white
+}
+
+
+.heading{
+    /* color name */
+    
+    /* color: purple; */
+
+
+    /* //rgb */
+    /* color: rgb(195, 155, 211 ); */
+
+    /* hex code  */
+    /* color: #fff; */
+
+    /* background-color: rgba(255 , 0 , 0); */
+    /* background-color: rgba(255, 255, 255); */
+    /* opacity: 2; */
+    /* color: hsl(282, 44%, 47%); */
+}
