@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding: 15px;
+  justify-content: space-around;
+  margin: 0 15px;
+  flex-wrap: wrap;
+}
+.leftBox {
+  display: flex;
+  /* border: 1px solid purple; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.leftBox ul {
+  display: flex;
+  color: #65735b;
+  /* #14a800 */
+}
+
+.leftBox ul li {
+  margin: 0 10px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.leftBox li i {
+  font-size: small;
+}
+
+.rightBox {
+  /* border: 1px solid orange; */
+  display: flex;
+  align-items: center;
+}
+
+.rightBox .search {
+  margin: 0 10px;
+  /* border: 1px solid black; */
+  padding: 12px;
+  border-radius: 50%;
+  background-color: lightgray;
+  color: #14a800;
+}
+.authBtn {
+  margin: 0 10px;
+}
+
+.authBtn button {
+  /* width: 100px; */
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  color: #14a800;
+  font-size: large;
+  cursor: pointer;
+}
+.signupBtn {
+  width: 100px;
+
+  background-color: #14a800 !important;
+  color: white !important;
+  border-radius: 15px;
+}
+
+.extraLinks {
+  /* width: 100%; */
+  /* border: 2px solid red; */
+  margin-top: 20px;
+}
+
+.extraLinks ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: #65735b;
+}
+
+.extraLinks li {
+  margin: 5px;
+}
+.extraLinks ul i {
+  font-size: small;
+}
+
+.extraLinks li:hover {
+  color: #14a800;
+  cursor: pointer;
+}
+
+.topBanner {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.bannerContent {
+  width: 50%;
+  padding: 8px;
+}
+
+.bannerImg {
+  width: 40%;
+}
+
+.content h1 {
+  font-size: 60px;
+  color: #14a800;
+}
+.content h3 {
+  color: #65735b;
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+.content button {
+  width: 120px;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid #14a800;
+  background-color: transparent;
+  color: #14a800;
+}
+
+.btn1 {
+  background-color: #14a800 !important;
+  color: white !important;
+}
+
+.logos {
+  margin-top: 80px;
+}
+.logos p {
+  color: #65735b;
+}
+.logos img {
+  margin: 0 8px;
+}
+
+.parentSection {
+  padding: 0 10px;
+}
+.firstSection {
+  width: 100%;
+  background-image: url("img/find-talent.06d34b1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 20px 0;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.para {
+  margin: 20px 0;
+  padding: 8px;
+}
+.para p {
+  margin: 10px 0;
+  color: white;
+  font-size: 25px;
+}
+.firstSection h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.firstSection h3 {
+  color: white;
+  font-size: 20px;
+  width: 50%;
+  margin: 20px 0;
+}
+
+.cards {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.cards section {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #14a800;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+  color: white;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 630px) {
+  .leftBox ul li {
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .leftBox {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .bannerImg {
+    display: none;
+  }
+  .bannerContent {
+    width: 80%;
+  }
+}
