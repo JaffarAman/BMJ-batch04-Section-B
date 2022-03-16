@@ -1,0 +1,21 @@
+.myBox {
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.myBox img {
+  width: 250px;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 570px) {
+  /* .myBox {
+    display: block;
+  } */
+
+  .myBox img {
+    width: 100px;
+  }
+}

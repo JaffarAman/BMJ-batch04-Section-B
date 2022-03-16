@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.courses a:hover {
+  background-color: #5cb85c;
+}
+
+.coursesBox{
+  /* border: 1px solid red; */
+}

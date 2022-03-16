@@ -1,0 +1,10 @@
+/* .navbarDiv {
+  position: sticky !important;
+  top: 0;
+} */
+
+.myDropDown a:hover {
+  background-color: grey;
+  color: white;
+}
+
